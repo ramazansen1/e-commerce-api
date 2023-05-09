@@ -15,4 +15,4 @@ The user can shop from the products he wants by creating a basket. If there is a
 
 # E-Commerce View
 
-<img src="gif/screen-view.gif">
+<img src="images/screen-view.gif">
