@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-CommerceBurada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>E-Commerce</h2>
+        <input type="text" placeholder="Ürün ismi giriniz">
+        <div>
+            <button id="open-btn">Sepet</button>
+            <button>Kayıt Ol</button>
+            <button>Giriş Yap</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Kategoriler -->
+        <div class="category-wrapper">
+            <h1>Kategoriler</h1>
+            <div class="categories"></div> 
+        </div>
+        <!-- Urunler -->
+        <div class="product-wrapper">
+            <h1>Ürünler</h1>
+            <div class="products"></div>
+        </div>
+
+        <!-- sepet -->
+        <div class="modal-wrapper">
+            <div class="modal">
+                <img id="close-btn" src="images/close.png" alt="">
+                <div class="modal-list"></div>
+
+                <div class="total-price">
+                    Toplam: <span id="modal-info">0</span> $
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
